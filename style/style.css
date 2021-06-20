@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: salmon;
+}
+
+header {
+    width: 100%;
+    padding: 25px;
+    border: none;
+    position: fixed;    
+    background-color: coral;
+    z-index: 10;
+}
+
+ul {
+    list-style: none;
+        
+}
+
+li {
+    display: inline;
+    padding: 25px;
+    font-size: 30px;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.itens {
+    border: 1px solid silver;
+}
+
+.buttom {
+    height: 25px;
+    padding: 2px;
+}
+
+main{
+    position: relative;
+    top: 100px;    
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Recursive', sans-serif;
+    font-weight: bold;
+}
+
+.banner {
+    font-size: 30px;
+    text-align: center;         
+}
+
+.girlpower{
+    width: 80%;
+    height: 80%;
+}
+
+
+article{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    position: relative;
+}
+
+
+
+.mulherTecnologia {
+    width: 40%;
+    height: 40%;
+    border: none;
+    margin: 5px;    
+    padding: 5px;
+    display: inline-block; 
+    
+}
+
+.imagemConteudo{
+    width: 40%;
+    height: 40%;    
+}
+
+
+#whats{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 2;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: coral;
+    padding: 25px;
+}
